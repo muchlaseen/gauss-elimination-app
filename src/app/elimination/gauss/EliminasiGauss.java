@@ -55,7 +55,7 @@ public class EliminasiGauss {
 
     public void printRowEchelonForm(double[][] A, double[] B) {
         int N = B.length;
-        System.out.println("\nRow Echelon form : ");
+        System.out.println("\nMatriks Eselon : ");
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 System.out.printf("%.3f ", A[i][j]);
@@ -67,7 +67,7 @@ public class EliminasiGauss {
 
     public void printSolution(double[] sol) {
         int N = sol.length;
-        System.out.println("\nSolution : ");
+        System.out.println("\nSolusi : ");
         for (int i = 0; i < N; i++) {
             System.out.printf("%.3f ", sol[i]);
         }
